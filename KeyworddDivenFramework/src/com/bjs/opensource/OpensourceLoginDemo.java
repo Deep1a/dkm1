@@ -30,6 +30,7 @@ public class OpensourceLoginDemo {
 		driver.findElement(By.id(password1)).sendKeys("opensourcecms");
 		driver.findElement(By.id(LogIn1)).click();
 		driver.findElement(By.xpath(comment1)).click();
+		System.out.println("deepak");
 
 	}
 
